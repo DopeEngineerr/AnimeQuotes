@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body {
+	font-family: "Charm", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-image {
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin-top: -45px;
+	z-index: 1;
+	/* display: block; */
+	background-image: url("https://2.bp.blogspot.com/-C8vnMOJVWRI/XIkaFbYfEcI/AAAAAAAAAgo/FIBvarQjNwwTVb5OPnpRhUjTU1lcnuQMwCKgBGAs/w0/anime-scenery-sunset-uhdpaper.com-4K-112.jpg");
+	width: 1920px;
+	height: 1080px;
+	/* border: 10px solid black; */
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content {
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text {
+	padding: 10px;
+	margin: 0;
+	font-size: 80px;
+	font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+	margin-left: -20px;
+	margin-right: -20px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+	padding: 20px;
+}
+
+.quote {
+	font-size: 30px;
+}
+
+.font {
+	margin-top: 130px;
+}
+
+.by {
+	margin-top: -10px;
+	float: right;
+	font-size: 20px;
+}
+
+.bruh {
+	margin: 0px;
 }
